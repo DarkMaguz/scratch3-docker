@@ -4,7 +4,7 @@ Dockerized version of Scratch 3 editor from: https://github.com/LLK/scratch-gui
 
 Use the following command to luanch the server(editor): 
 ```
-docker run -p 8601:8601 -d --name scratch3 darkmagus/scratch3-docker
+docker run -p 8601:8601 -d --name scratch3 darkmagus/scratch3
 ```
 
 When it is up and running, type http://localhost:8601/ in a browser to access the editor.
